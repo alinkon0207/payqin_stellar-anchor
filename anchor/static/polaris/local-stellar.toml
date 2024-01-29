@@ -1,0 +1,34 @@
+NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
+ACCOUNTS = []
+VERSION = "0.1.0"
+WEB_AUTH_ENDPOINT = "http://localhost:8000/auth"
+
+[DOCUMENTATION]
+ORG_NAME = "PayQin, Inc."
+ORG_DBA = "PayQin"
+ORG_URL = "www.payqin.com"
+ORG_LOGO = "https://web.payqin.com/logo.png"
+ORG_DESCRIPTION = "Cross border payment app for business"
+ORG_PHYSICAL_ADDRESS = "400 Rella Boulevard, Montebello, NY 10901 USA "
+ORG_OFFICIAL_EMAIL = "finance@payqin.com"
+ORG_TWITTER = "https://twitter.com/PayQinn"
+ORG_GITHUB = ""
+ORG_SUPPORT_EMAIL = "hello@payqin.com"
+
+[[PRINCIPALS]]
+name = "Fabrice Amalaman"
+email = "fabrice@payqin.com"
+
+[[CURRENCIES]]
+code = ""
+issuer = ""
+name = ""
+desc = ""
+display_decimals = 2
+is_asset_anchored = true
+is_unlimited = true
+anchor_asset_type = "fiat"
+anchor_asset = ""
+redemption_instructions = ""
+status = "live"
+image = ""
